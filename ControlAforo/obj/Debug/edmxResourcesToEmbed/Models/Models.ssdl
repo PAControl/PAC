@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PACbdModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Control">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="fecha" Type="datetime" Nullable="false" />
+    <Property Name="entrada" Type="bit" Nullable="false" />
+    <Property Name="id_local" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Empresa">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="nombre" Type="nchar" MaxLength="50" />
+    <Property Name="CIF" Type="nchar" MaxLength="9" />
+  </EntityType>
+  <EntityType Name="Local">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="usuario" Type="nchar" MaxLength="20" Nullable="false" />
+    <Property Name="password" Type="nchar" MaxLength="20" Nullable="false" />
+    <Property Name="nombre" Type="nchar" MaxLength="50" />
+    <Property Name="direccion" Type="nchar" MaxLength="100" />
+    <Property Name="telefono" Type="nchar" MaxLength="12" />
+    <Property Name="aforo" Type="int" />
+    <Property Name="aforoMax" Type="int" />
+    <Property Name="rol" Type="bit" />
+    <Property Name="id_empresa" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Control_Local">
+    <End Role="Local" Type="Self.Local" Multiplicity="1" />
+    <End Role="Control" Type="Self.Control" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Local">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Control">
+        <PropertyRef Name="id_local" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Local_Empresa">
+    <End Role="Empresa" Type="Self.Empresa" Multiplicity="1" />
+    <End Role="Local" Type="Self.Local" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empresa">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Local">
+        <PropertyRef Name="id_empresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PACbdModelStoreContainer">
+    <EntitySet Name="Control" EntityType="Self.Control" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Empresa" EntityType="Self.Empresa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Local" EntityType="Self.Local" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Control_Local" Association="Self.FK_Control_Local">
+      <End Role="Local" EntitySet="Local" />
+      <End Role="Control" EntitySet="Control" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Local_Empresa" Association="Self.FK_Local_Empresa">
+      <End Role="Empresa" EntitySet="Empresa" />
+      <End Role="Local" EntitySet="Local" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

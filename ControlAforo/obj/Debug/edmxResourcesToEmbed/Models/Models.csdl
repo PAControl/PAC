@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PACbdModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Control">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="fecha" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="entrada" Type="Boolean" Nullable="false" />
+    <Property Name="id_local" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Local" Relationship="Self.FK_Control_Local" FromRole="Control" ToRole="Local" />
+  </EntityType>
+  <EntityType Name="Empresa">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="CIF" Type="String" MaxLength="9" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="Local" Relationship="Self.FK_Local_Empresa" FromRole="Empresa" ToRole="Local" />
+  </EntityType>
+  <EntityType Name="Local">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="usuario" Type="String" MaxLength="20" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="20" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="direccion" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="telefono" Type="String" MaxLength="12" FixedLength="true" Unicode="true" />
+    <Property Name="aforo" Type="Int32" />
+    <Property Name="aforoMax" Type="Int32" />
+    <Property Name="rol" Type="Boolean" />
+    <Property Name="id_empresa" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Control" Relationship="Self.FK_Control_Local" FromRole="Local" ToRole="Control" />
+    <NavigationProperty Name="Empresa" Relationship="Self.FK_Local_Empresa" FromRole="Local" ToRole="Empresa" />
+  </EntityType>
+  <Association Name="FK_Control_Local">
+    <End Role="Local" Type="Self.Local" Multiplicity="1" />
+    <End Role="Control" Type="Self.Control" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Local">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Control">
+        <PropertyRef Name="id_local" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Local_Empresa">
+    <End Role="Empresa" Type="Self.Empresa" Multiplicity="1" />
+    <End Role="Local" Type="Self.Local" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empresa">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Local">
+        <PropertyRef Name="id_empresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PACbdEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Control" EntityType="Self.Control" />
+    <EntitySet Name="Empresa" EntityType="Self.Empresa" />
+    <EntitySet Name="Local" EntityType="Self.Local" />
+    <AssociationSet Name="FK_Control_Local" Association="Self.FK_Control_Local">
+      <End Role="Local" EntitySet="Local" />
+      <End Role="Control" EntitySet="Control" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Local_Empresa" Association="Self.FK_Local_Empresa">
+      <End Role="Empresa" EntitySet="Empresa" />
+      <End Role="Local" EntitySet="Local" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
