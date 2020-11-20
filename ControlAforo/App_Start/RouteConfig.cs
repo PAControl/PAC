@@ -16,7 +16,7 @@ namespace ControlAforo
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Local", action = "GestionLocales", id = UrlParameter.Optional }
+                defaults: new { controller = "Local", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

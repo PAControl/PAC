@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using ControlAforo.Models;
 
 namespace ControlAforo.Controllers
 {
@@ -11,12 +12,11 @@ namespace ControlAforo.Controllers
         // GET: Local
         public ActionResult Index()
         {
-            return View();
-        }
+            //OBTENER LA TABLA LOCAL (LOS LOCALES)
+            PACbdEntities db = new PACbdEntities();
+            List<Local> locales = db.Local.ToList();
 
-        public ActionResult GestionLocales()
-        {
-            return View();
+            return View(locales);
         }
 
         // GET: Local/Details/5
@@ -90,5 +90,6 @@ namespace ControlAforo.Controllers
                 return View();
             }
         }
+
     }
 }
