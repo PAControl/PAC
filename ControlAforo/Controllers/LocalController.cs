@@ -9,11 +9,14 @@ namespace ControlAforo.Controllers
 {
     public class LocalController : Controller
     {
+
+        //Obtener el contexto de la BD.
+        PACbdEntities db = new PACbdEntities();
+
         // GET: Local
         public ActionResult Index()
         {
-            //OBTENER LA TABLA LOCAL (LOS LOCALES)
-            PACbdEntities db = new PACbdEntities();
+            //Consulta para obtener todos los datos de los locales.
             List<Local> locales = db.Local.ToList();
 
             return View(locales);
@@ -22,7 +25,13 @@ namespace ControlAforo.Controllers
         // GET: Local/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+
+            //List<Local> detalleLocal = db.Local.Where(l => l.id == id).ToList();
+            Local detalleLocal = db.Local.Find(id);
+
+
+
+            return View(detalleLocal);
         }
 
         // GET: Local/Create
@@ -72,24 +81,33 @@ namespace ControlAforo.Controllers
         // GET: Local/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            //Eliminar un local
+            Local localEliminado = db.Local.Find(id);
+            db.Local.Remove(localEliminado);
+            db.SaveChanges();
+            return RedirectToAction("Index");
         }
 
         // POST: Local/Delete/5
-        [HttpPost]
+       /* [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)
         {
             try
             {
                 // TODO: Add delete logic here
-
+                Local localEliminado = db.Local.Find(id);
+                db.Local.Remove(localEliminado);
+                db.SaveChanges();
                 return RedirectToAction("Index");
             }
             catch
             {
-                return View();
+                Local localEliminado = db.Local.Find(id);
+                db.Local.Remove(localEliminado);
+                db.SaveChanges();
+                return RedirectToAction("Index");
             }
-        }
+        }*/
 
     }
 }
