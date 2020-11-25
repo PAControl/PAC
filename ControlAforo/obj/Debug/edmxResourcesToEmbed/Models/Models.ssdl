@@ -4,7 +4,7 @@
     <Key>
       <PropertyRef Name="id" />
     </Key>
-    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="fecha" Type="datetime" Nullable="false" />
     <Property Name="entrada" Type="bit" Nullable="false" />
     <Property Name="id_local" Type="int" Nullable="false" />
@@ -13,23 +13,22 @@
     <Key>
       <PropertyRef Name="id" />
     </Key>
-    <Property Name="id" Type="int" Nullable="false" />
-    <Property Name="nombre" Type="nchar" MaxLength="50" />
-    <Property Name="CIF" Type="nchar" MaxLength="9" />
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" />
+    <Property Name="CIF" Type="varchar" MaxLength="50" />
   </EntityType>
   <EntityType Name="Local">
     <Key>
       <PropertyRef Name="id" />
     </Key>
-    <Property Name="id" Type="int" Nullable="false" />
-    <Property Name="usuario" Type="nchar" MaxLength="20" Nullable="false" />
-    <Property Name="password" Type="nchar" MaxLength="20" Nullable="false" />
-    <Property Name="nombre" Type="nchar" MaxLength="50" />
-    <Property Name="direccion" Type="nchar" MaxLength="100" />
-    <Property Name="telefono" Type="nchar" MaxLength="12" />
-    <Property Name="aforo" Type="int" />
-    <Property Name="aforoMax" Type="int" />
-    <Property Name="rol" Type="bit" />
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="usuario" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="contraseña" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="direccion" Type="varchar" MaxLength="100" />
+    <Property Name="telefono" Type="int" />
+    <Property Name="aforo" Type="int" Nullable="false" />
+    <Property Name="aforoMax" Type="int" Nullable="false" />
+    <Property Name="rol" Type="bit" Nullable="false" />
     <Property Name="id_empresa" Type="int" Nullable="false" />
   </EntityType>
   <Association Name="FK_Control_Local">

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="PACbdModelStoreContainer" CdmEntityContainer="PACbdEntities">
+  <EntityContainerMapping StorageEntityContainer="PACbdModelStoreContainer" CdmEntityContainer="PACbdEntities1">
     <EntitySetMapping Name="Control">
       <EntityTypeMapping TypeName="PACbdModel.Control">
         <MappingFragment StoreEntitySet="Control">
@@ -25,8 +25,7 @@
         <MappingFragment StoreEntitySet="Local">
           <ScalarProperty Name="id" ColumnName="id" />
           <ScalarProperty Name="usuario" ColumnName="usuario" />
-          <ScalarProperty Name="password" ColumnName="password" />
-          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="contraseña" ColumnName="contraseña" />
           <ScalarProperty Name="direccion" ColumnName="direccion" />
           <ScalarProperty Name="telefono" ColumnName="telefono" />
           <ScalarProperty Name="aforo" ColumnName="aforo" />

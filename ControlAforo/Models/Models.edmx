@@ -9,7 +9,7 @@
           <Key>
             <PropertyRef Name="id" />
           </Key>
-          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="fecha" Type="datetime" Nullable="false" />
           <Property Name="entrada" Type="bit" Nullable="false" />
           <Property Name="id_local" Type="int" Nullable="false" />
@@ -18,23 +18,22 @@
           <Key>
             <PropertyRef Name="id" />
           </Key>
-          <Property Name="id" Type="int" Nullable="false" />
-          <Property Name="nombre" Type="nchar" MaxLength="50" />
-          <Property Name="CIF" Type="nchar" MaxLength="9" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="50" />
+          <Property Name="CIF" Type="varchar" MaxLength="50" />
         </EntityType>
         <EntityType Name="Local">
           <Key>
             <PropertyRef Name="id" />
           </Key>
-          <Property Name="id" Type="int" Nullable="false" />
-          <Property Name="usuario" Type="nchar" MaxLength="20" Nullable="false" />
-          <Property Name="password" Type="nchar" MaxLength="20" Nullable="false" />
-          <Property Name="nombre" Type="nchar" MaxLength="50" />
-          <Property Name="direccion" Type="nchar" MaxLength="100" />
-          <Property Name="telefono" Type="nchar" MaxLength="12" />
-          <Property Name="aforo" Type="int" />
-          <Property Name="aforoMax" Type="int" />
-          <Property Name="rol" Type="bit" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="usuario" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="contraseña" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="direccion" Type="varchar" MaxLength="100" />
+          <Property Name="telefono" Type="int" />
+          <Property Name="aforo" Type="int" Nullable="false" />
+          <Property Name="aforoMax" Type="int" Nullable="false" />
+          <Property Name="rol" Type="bit" Nullable="false" />
           <Property Name="id_empresa" Type="int" Nullable="false" />
         </EntityType>
         <Association Name="FK_Control_Local">
@@ -83,7 +82,7 @@
           <Key>
             <PropertyRef Name="id" />
           </Key>
-          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="fecha" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="entrada" Type="Boolean" Nullable="false" />
           <Property Name="id_local" Type="Int32" Nullable="false" />
@@ -93,24 +92,23 @@
           <Key>
             <PropertyRef Name="id" />
           </Key>
-          <Property Name="id" Type="Int32" Nullable="false" />
-          <Property Name="nombre" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
-          <Property Name="CIF" Type="String" MaxLength="9" FixedLength="true" Unicode="true" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CIF" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="Local" Relationship="Self.FK_Local_Empresa" FromRole="Empresa" ToRole="Local" />
         </EntityType>
         <EntityType Name="Local">
           <Key>
             <PropertyRef Name="id" />
           </Key>
-          <Property Name="id" Type="Int32" Nullable="false" />
-          <Property Name="usuario" Type="String" MaxLength="20" FixedLength="true" Unicode="true" Nullable="false" />
-          <Property Name="password" Type="String" MaxLength="20" FixedLength="true" Unicode="true" Nullable="false" />
-          <Property Name="nombre" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
-          <Property Name="direccion" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
-          <Property Name="telefono" Type="String" MaxLength="12" FixedLength="true" Unicode="true" />
-          <Property Name="aforo" Type="Int32" />
-          <Property Name="aforoMax" Type="Int32" />
-          <Property Name="rol" Type="Boolean" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="usuario" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="contraseña" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="direccion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="telefono" Type="Int32" />
+          <Property Name="aforo" Type="Int32" Nullable="false" />
+          <Property Name="aforoMax" Type="Int32" Nullable="false" />
+          <Property Name="rol" Type="Boolean" Nullable="false" />
           <Property Name="id_empresa" Type="Int32" Nullable="false" />
           <NavigationProperty Name="Control" Relationship="Self.FK_Control_Local" FromRole="Local" ToRole="Control" />
           <NavigationProperty Name="Empresa" Relationship="Self.FK_Local_Empresa" FromRole="Local" ToRole="Empresa" />
@@ -139,7 +137,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="PACbdEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="PACbdEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Control" EntityType="Self.Control" />
           <EntitySet Name="Empresa" EntityType="Self.Empresa" />
           <EntitySet Name="Local" EntityType="Self.Local" />
@@ -157,7 +155,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="PACbdModelStoreContainer" CdmEntityContainer="PACbdEntities">
+        <EntityContainerMapping StorageEntityContainer="PACbdModelStoreContainer" CdmEntityContainer="PACbdEntities1">
           <EntitySetMapping Name="Control">
             <EntityTypeMapping TypeName="PACbdModel.Control">
               <MappingFragment StoreEntitySet="Control">
@@ -182,8 +180,7 @@
               <MappingFragment StoreEntitySet="Local">
                 <ScalarProperty Name="id" ColumnName="id" />
                 <ScalarProperty Name="usuario" ColumnName="usuario" />
-                <ScalarProperty Name="password" ColumnName="password" />
-                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="contraseña" ColumnName="contraseña" />
                 <ScalarProperty Name="direccion" ColumnName="direccion" />
                 <ScalarProperty Name="telefono" ColumnName="telefono" />
                 <ScalarProperty Name="aforo" ColumnName="aforo" />

@@ -11,7 +11,7 @@ namespace ControlAforo.Controllers
     {
 
         //Obtener el contexto de la BD.
-        PACbdEntities db = new PACbdEntities();
+        PACbdEntities1 db = new PACbdEntities1();
 
         // GET: Local
         public ActionResult Index()
@@ -35,12 +35,14 @@ namespace ControlAforo.Controllers
         }
 
         // GET: Local/Create
+        //Redirección a la vista de formulario para crear un local.
         public ActionResult Create()
         {
-            return View();
+            return View("~/Views/Registro/Create.cshtml");
         }
 
         // POST: Local/Create
+        //Tratamiento de los datos del formulario y redirección a la lista de locales.
         [HttpPost]
         public ActionResult Create(FormCollection collection)
         {
@@ -48,18 +50,45 @@ namespace ControlAforo.Controllers
             {
                 // TODO: Add insert logic here
 
+                Empresa e = new Empresa();
+                e.nombre = collection["empN"];
+                e.CIF = collection["cif"];
+
+                db.Empresa.Add(e);
+                db.SaveChanges();
+
+                Local l = new Local();
+                l.usuario = collection["user"];
+                l.contraseña = collection["password"];
+                l.direccion = collection["dir"];
+                l.telefono = Int32.Parse(collection["tel"]);
+                l.aforoMax = Int32.Parse(collection["afM"]);
+                l.id_empresa = Int32.Parse(e.id.ToString());
+                
+                db.Local.Add(l);
+                db.SaveChanges();
+
                 return RedirectToAction("Index");
             }
             catch
             {
-                return View();
+                return View("Index");
             }
         }
 
         // GET: Local/Edit/5
+        // Nos enviara a la página de edición del local.
         public ActionResult Edit(int id)
         {
-            return View();
+
+            Empresa em = new Empresa();
+            int id_empresa = db.Local.Find(id).id_empresa;
+            em = db.Empresa.Find(id_empresa);
+
+            Local lo = new Local();
+            lo = db.Local.Find(id);
+
+            return View("~/Views/EditarLocal/Editar.cshtml");
         }
 
         // POST: Local/Edit/5

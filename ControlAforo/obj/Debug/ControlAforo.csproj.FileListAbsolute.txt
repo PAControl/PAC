@@ -268,3 +268,453 @@ C:\Users\Admin\Source\Repos\smiranda-maker\ControlAforo\ControlAforo\obj\Debug\C
 C:\Users\Admin\Source\Repos\smiranda-maker\ControlAforo\ControlAforo\obj\Debug\ControlAforo.csproj.CopyComplete
 C:\Users\Admin\Source\Repos\smiranda-maker\ControlAforo\ControlAforo\obj\Debug\ControlAforo.dll
 C:\Users\Admin\Source\Repos\smiranda-maker\ControlAforo\ControlAforo\obj\Debug\ControlAforo.pdb
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\ControlAforo.dll.config
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\ControlAforo.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\ControlAforo.pdb
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\csc.exe
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\csc.exe.config
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\csc.rsp
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\csi.exe
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\csi.exe.config
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\csi.rsp
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.AppContext.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.Console.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.IO.Compression.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.Net.Http.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.ValueTuple.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\vbc.exe
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\vbc.exe.config
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\vbc.rsp
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\VBCSCompiler.exe
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\Antlr3.Runtime.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\EntityFramework.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\EntityFramework.SqlServer.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\Newtonsoft.Json.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\System.Web.Helpers.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\System.Web.Mvc.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\System.Web.Optimization.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\System.Web.Razor.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\System.Web.WebPages.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\System.Web.WebPages.Razor.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\WebGrease.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\EntityFramework.xml
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\EntityFramework.SqlServer.xml
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\System.Web.Helpers.xml
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\System.Web.Mvc.xml
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\System.Web.Optimization.xml
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\System.Web.Razor.xml
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\System.Web.WebPages.xml
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\System.Web.WebPages.Razor.xml
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\Newtonsoft.Json.xml
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\Antlr3.Runtime.pdb
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\es\System.Web.Helpers.resources.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\es\System.Web.Mvc.resources.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\es\System.Web.Optimization.resources.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\es\System.Web.Razor.resources.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\es\System.Web.WebPages.resources.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\obj\Debug\ControlAforo.csprojAssemblyReference.cache
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\obj\Debug\ControlAforo.csproj.CoreCompileInputs.cache
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\obj\Debug\ControlAforo.csproj.CopyComplete
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\obj\Debug\ControlAforo.dll
+C:\Users\ivan\source\repos\smiranda-maker\ControlAforo\ControlAforo\obj\Debug\ControlAforo.pdb
+F:\ControlAforo\ControlAforo\bin\ControlAforo.dll.config
+F:\ControlAforo\ControlAforo\bin\ControlAforo.dll
+F:\ControlAforo\ControlAforo\bin\ControlAforo.pdb
+F:\ControlAforo\ControlAforo\bin\roslyn\csc.exe
+F:\ControlAforo\ControlAforo\bin\roslyn\csc.exe.config
+F:\ControlAforo\ControlAforo\bin\roslyn\csc.rsp
+F:\ControlAforo\ControlAforo\bin\roslyn\csi.exe
+F:\ControlAforo\ControlAforo\bin\roslyn\csi.exe.config
+F:\ControlAforo\ControlAforo\bin\roslyn\csi.rsp
+F:\ControlAforo\ControlAforo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\ControlAforo\ControlAforo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\Microsoft.Managed.Core.targets
+F:\ControlAforo\ControlAforo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\ControlAforo\ControlAforo\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.AppContext.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.Collections.Immutable.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.Console.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.Globalization.Calendars.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.IO.Compression.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.IO.FileSystem.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.Net.Http.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.Net.Sockets.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.Reflection.Metadata.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.ValueTuple.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.Xml.XmlDocument.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.Xml.XPath.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\ControlAforo\ControlAforo\bin\roslyn\vbc.exe
+F:\ControlAforo\ControlAforo\bin\roslyn\vbc.exe.config
+F:\ControlAforo\ControlAforo\bin\roslyn\vbc.rsp
+F:\ControlAforo\ControlAforo\bin\roslyn\VBCSCompiler.exe
+F:\ControlAforo\ControlAforo\bin\roslyn\VBCSCompiler.exe.config
+F:\ControlAforo\ControlAforo\bin\Antlr3.Runtime.dll
+F:\ControlAforo\ControlAforo\bin\EntityFramework.dll
+F:\ControlAforo\ControlAforo\bin\EntityFramework.SqlServer.dll
+F:\ControlAforo\ControlAforo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\ControlAforo\ControlAforo\bin\Microsoft.Web.Infrastructure.dll
+F:\ControlAforo\ControlAforo\bin\Newtonsoft.Json.dll
+F:\ControlAforo\ControlAforo\bin\System.Web.Helpers.dll
+F:\ControlAforo\ControlAforo\bin\System.Web.Mvc.dll
+F:\ControlAforo\ControlAforo\bin\System.Web.Optimization.dll
+F:\ControlAforo\ControlAforo\bin\System.Web.Razor.dll
+F:\ControlAforo\ControlAforo\bin\System.Web.WebPages.Deployment.dll
+F:\ControlAforo\ControlAforo\bin\System.Web.WebPages.dll
+F:\ControlAforo\ControlAforo\bin\System.Web.WebPages.Razor.dll
+F:\ControlAforo\ControlAforo\bin\WebGrease.dll
+F:\ControlAforo\ControlAforo\bin\EntityFramework.xml
+F:\ControlAforo\ControlAforo\bin\EntityFramework.SqlServer.xml
+F:\ControlAforo\ControlAforo\bin\System.Web.Helpers.xml
+F:\ControlAforo\ControlAforo\bin\System.Web.Mvc.xml
+F:\ControlAforo\ControlAforo\bin\System.Web.Optimization.xml
+F:\ControlAforo\ControlAforo\bin\System.Web.Razor.xml
+F:\ControlAforo\ControlAforo\bin\System.Web.WebPages.xml
+F:\ControlAforo\ControlAforo\bin\System.Web.WebPages.Deployment.xml
+F:\ControlAforo\ControlAforo\bin\System.Web.WebPages.Razor.xml
+F:\ControlAforo\ControlAforo\bin\Newtonsoft.Json.xml
+F:\ControlAforo\ControlAforo\bin\Antlr3.Runtime.pdb
+F:\ControlAforo\ControlAforo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\ControlAforo\ControlAforo\bin\es\System.Web.Helpers.resources.dll
+F:\ControlAforo\ControlAforo\bin\es\System.Web.Mvc.resources.dll
+F:\ControlAforo\ControlAforo\bin\es\System.Web.Optimization.resources.dll
+F:\ControlAforo\ControlAforo\bin\es\System.Web.Razor.resources.dll
+F:\ControlAforo\ControlAforo\bin\es\System.Web.WebPages.resources.dll
+F:\ControlAforo\ControlAforo\bin\es\System.Web.WebPages.Deployment.resources.dll
+F:\ControlAforo\ControlAforo\bin\es\System.Web.WebPages.Razor.resources.dll
+F:\ControlAforo\ControlAforo\obj\Debug\ControlAforo.csprojAssemblyReference.cache
+F:\ControlAforo\ControlAforo\obj\Debug\ControlAforo.csproj.CoreCompileInputs.cache
+F:\ControlAforo\ControlAforo\obj\Debug\ControlAforo.csproj.CopyComplete
+F:\ControlAforo\ControlAforo\obj\Debug\ControlAforo.dll
+F:\ControlAforo\ControlAforo\obj\Debug\ControlAforo.pdb
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\ControlAforo.dll.config
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\ControlAforo.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\ControlAforo.pdb
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\csc.exe
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\csc.exe.config
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\csc.rsp
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\csi.exe
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\csi.exe.config
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\csi.rsp
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.Managed.Core.targets
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.AppContext.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Collections.Immutable.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Console.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Globalization.Calendars.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.IO.Compression.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.IO.FileSystem.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Net.Http.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Net.Sockets.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Reflection.Metadata.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.ValueTuple.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Xml.XmlDocument.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Xml.XPath.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\vbc.exe
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\vbc.exe.config
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\vbc.rsp
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\VBCSCompiler.exe
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\VBCSCompiler.exe.config
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\Antlr3.Runtime.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\EntityFramework.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\EntityFramework.SqlServer.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\Microsoft.Web.Infrastructure.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\Newtonsoft.Json.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.Helpers.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.Mvc.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.Optimization.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.Razor.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.WebPages.Deployment.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.WebPages.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.WebPages.Razor.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\WebGrease.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\EntityFramework.xml
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\EntityFramework.SqlServer.xml
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.Helpers.xml
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.Mvc.xml
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.Optimization.xml
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.Razor.xml
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.WebPages.xml
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.WebPages.Deployment.xml
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.WebPages.Razor.xml
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\Newtonsoft.Json.xml
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\Antlr3.Runtime.pdb
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\es\System.Web.Helpers.resources.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\es\System.Web.Mvc.resources.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\es\System.Web.Optimization.resources.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\es\System.Web.Razor.resources.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\es\System.Web.WebPages.resources.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\obj\Debug\ControlAforo.csprojAssemblyReference.cache
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\obj\Debug\ControlAforo.csproj.CoreCompileInputs.cache
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\obj\Debug\ControlAforo.csproj.CopyComplete
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\obj\Debug\ControlAforo.dll
+E:\PROYECTO ESPLAI\ControlAforo\ControlAforo\obj\Debug\ControlAforo.pdb
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\ControlAforo.dll.config
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\ControlAforo.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\ControlAforo.pdb
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\csc.exe
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\csc.exe.config
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\csc.rsp
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\csi.exe
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\csi.exe.config
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\csi.rsp
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.Managed.Core.targets
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.AppContext.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Collections.Immutable.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Console.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Globalization.Calendars.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.IO.Compression.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.IO.FileSystem.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Net.Http.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Net.Sockets.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Reflection.Metadata.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.ValueTuple.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Xml.XmlDocument.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Xml.XPath.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\vbc.exe
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\vbc.exe.config
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\vbc.rsp
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\VBCSCompiler.exe
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\roslyn\VBCSCompiler.exe.config
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\Antlr3.Runtime.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\EntityFramework.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\EntityFramework.SqlServer.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\Microsoft.Web.Infrastructure.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\Newtonsoft.Json.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.Helpers.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.Mvc.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.Optimization.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.Razor.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.WebPages.Deployment.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.WebPages.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.WebPages.Razor.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\WebGrease.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\EntityFramework.xml
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\EntityFramework.SqlServer.xml
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.Helpers.xml
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.Mvc.xml
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.Optimization.xml
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.Razor.xml
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.WebPages.xml
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.WebPages.Deployment.xml
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\System.Web.WebPages.Razor.xml
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\Newtonsoft.Json.xml
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\Antlr3.Runtime.pdb
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\es\System.Web.Helpers.resources.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\es\System.Web.Mvc.resources.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\es\System.Web.Optimization.resources.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\es\System.Web.Razor.resources.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\es\System.Web.WebPages.resources.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\es\System.Web.WebPages.Deployment.resources.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\bin\es\System.Web.WebPages.Razor.resources.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\obj\Debug\ControlAforo.csprojAssemblyReference.cache
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\obj\Debug\ControlAforo.csproj.CoreCompileInputs.cache
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\obj\Debug\ControlAforo.csproj.CopyComplete
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\obj\Debug\ControlAforo.dll
+F:\PROYECTO ESPLAI\ControlAforo\ControlAforo\obj\Debug\ControlAforo.pdb
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\ControlAforo.dll.config
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\ControlAforo.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\ControlAforo.pdb
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\csc.exe
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\csc.exe.config
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\csc.rsp
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\csi.exe
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\csi.exe.config
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\csi.rsp
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\Microsoft.Managed.Core.targets
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.AppContext.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.Collections.Immutable.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.Console.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.Globalization.Calendars.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.IO.Compression.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.IO.FileSystem.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.Net.Http.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.Net.Sockets.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.Reflection.Metadata.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.ValueTuple.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.Xml.XmlDocument.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.Xml.XPath.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\vbc.exe
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\vbc.exe.config
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\vbc.rsp
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\VBCSCompiler.exe
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\roslyn\VBCSCompiler.exe.config
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\Antlr3.Runtime.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\EntityFramework.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\EntityFramework.SqlServer.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\Microsoft.Web.Infrastructure.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\Newtonsoft.Json.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\System.Web.Helpers.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\System.Web.Mvc.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\System.Web.Optimization.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\System.Web.Razor.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\System.Web.WebPages.Deployment.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\System.Web.WebPages.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\System.Web.WebPages.Razor.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\WebGrease.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\EntityFramework.xml
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\EntityFramework.SqlServer.xml
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\System.Web.Helpers.xml
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\System.Web.Mvc.xml
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\System.Web.Optimization.xml
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\System.Web.Razor.xml
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\System.Web.WebPages.xml
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\System.Web.WebPages.Deployment.xml
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\System.Web.WebPages.Razor.xml
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\Newtonsoft.Json.xml
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\Antlr3.Runtime.pdb
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\es\System.Web.Helpers.resources.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\es\System.Web.Mvc.resources.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\es\System.Web.Optimization.resources.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\es\System.Web.Razor.resources.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\es\System.Web.WebPages.resources.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\obj\Debug\ControlAforo.csprojAssemblyReference.cache
+D:\.NET\PAC\ControlAforo\ControlAforo\obj\Debug\ControlAforo.csproj.CoreCompileInputs.cache
+D:\.NET\PAC\ControlAforo\ControlAforo\obj\Debug\ControlAforo.csproj.CopyComplete
+D:\.NET\PAC\ControlAforo\ControlAforo\obj\Debug\ControlAforo.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\obj\Debug\ControlAforo.pdb

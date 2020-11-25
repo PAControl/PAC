@@ -13,10 +13,10 @@ namespace ControlAforo.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class PACbdEntities : DbContext
+    public partial class PACbdEntities1 : DbContext
     {
-        public PACbdEntities()
-            : base("name=PACbdEntities")
+        public PACbdEntities1()
+            : base("name=PACbdEntities1")
         {
         }
     
