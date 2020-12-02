@@ -26,5 +26,12 @@ namespace ControlAforo.Controllers
 
             return View();
         }
+
+        public ActionResult Login()
+        {
+            ViewBag.Message = "Please login";
+
+            return View();
+        }
     }
 }

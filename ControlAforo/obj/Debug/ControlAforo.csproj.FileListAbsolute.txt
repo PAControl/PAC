@@ -718,3 +718,9 @@ D:\.NET\PAC\ControlAforo\ControlAforo\obj\Debug\ControlAforo.csproj.CoreCompileI
 D:\.NET\PAC\ControlAforo\ControlAforo\obj\Debug\ControlAforo.csproj.CopyComplete
 D:\.NET\PAC\ControlAforo\ControlAforo\obj\Debug\ControlAforo.dll
 D:\.NET\PAC\ControlAforo\ControlAforo\obj\Debug\ControlAforo.pdb
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\System.Net.Http.Formatting.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\System.Web.Http.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\System.Web.Http.WebHost.dll
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\System.Net.Http.Formatting.xml
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\System.Web.Http.xml
+D:\.NET\PAC\ControlAforo\ControlAforo\bin\System.Web.Http.WebHost.xml
