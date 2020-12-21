@@ -11,7 +11,8 @@ namespace ControlAforo.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class Local
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -21,11 +22,16 @@ namespace ControlAforo.Models
         }
     
         public int id { get; set; }
+        [Required(ErrorMessage = "User is required")]
         public string usuario { get; set; }
+        [Required(ErrorMessage = "Password is required")]
         public string contraseña { get; set; }
+        [Required(ErrorMessage = "Address is required")]
         public string direccion { get; set; }
+        [Required(ErrorMessage = "Phone is required")]
         public Nullable<int> telefono { get; set; }
         public int aforo { get; set; }
+        [Required(ErrorMessage = "Max capacity is required")]
         public int aforoMax { get; set; }
         public bool rol { get; set; }
         public int id_empresa { get; set; }

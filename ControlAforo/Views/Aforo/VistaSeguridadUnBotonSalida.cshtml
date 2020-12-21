@@ -1,0 +1,60 @@
+﻿@model ControlAforo.Models.Local
+
+@{
+    ViewBag.Title = "changeAforo";
+}
+
+<script src="~/Scripts/pac.js"></script>
+<script src="https://kit.fontawesome.com/4b68cdd7e4.js" crossorigin="anonymous"></script>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-offset-10">
+                <button class="Config" id="abrirpopup" onclick="PopUp()">
+                </button>
+            </div>
+        </div>
+
+        <div class="row text-center">
+
+            <h1 class="TextAforo">@ViewBag.emp</h1>
+
+            <h3>Security Version Exit</h3>
+            <div class="col-md-6"><h2>Now:<span class="TextAforo"> @ViewBag.aforo</span></h2></div>
+            <div class="col-md-6"><h2>Max:<span class="TextAforo">  @ViewBag.aforoM</span></h2></div>
+
+        </div>
+
+            <br /><br />
+
+            @using (Html.BeginForm("RestarMuchosUnBoton", "Aforo", FormMethod.Post))
+            {
+                <div class="row text-center">
+                    <div class="col-xs-offset-3 col-sm-offset-4 col-md-offset-5">
+                        <input id="numsresta" type="number" class="NumInput" name="numsresta" value="1" required />
+                        <br /><br />
+                        <button type="submit" class="ExitButton" onclick="ChangeRed()">
+                            <p class="ButtonsText">EXIT</p>
+                        </button>
+                    </div>
+                </div>
+
+            }
+
+            <div class="overlay" id="overlay">
+                <div class="popup" id="popup">
+                    <a href="#" id="cerrarpopup" class="cerrarpopup" onclick="ClosePopUp()"><i class="fas fa-times"></i></a>
+                    @using (Html.BeginForm("Identification", "Home", FormMethod.Post))
+                    {
+                        <input type="password" name="password" placeholder="Password" />
+                        <button type="submit" class="btn btn-sm btn-success">ENTER</button>
+                    }
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>

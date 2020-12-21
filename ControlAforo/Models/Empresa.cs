@@ -11,7 +11,8 @@ namespace ControlAforo.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class Empresa
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -21,7 +22,9 @@ namespace ControlAforo.Models
         }
     
         public int id { get; set; }
+        [Required(ErrorMessage = "Name is required")]
         public string nombre { get; set; }
+        [Required(ErrorMessage = "CIF is required")]
         public string CIF { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

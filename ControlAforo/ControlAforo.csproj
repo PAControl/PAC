@@ -55,9 +55,6 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
-    </Reference>
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
@@ -66,12 +63,6 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.7\lib\net45\System.Web.Http.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Http.WebHost, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.7\lib\net45\System.Web.Http.WebHost.dll</HintPath>
-    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
@@ -137,12 +128,14 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\AforoController.cs" />
+    <Compile Include="Controllers\EstadisticasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LocalController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Calculos.cs" />
     <Compile Include="Models\Control.cs">
       <DependentUpon>Models.tt</DependentUpon>
     </Compile>
@@ -174,8 +167,12 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\ajustes.png" />
+    <Content Include="Content\Images\Logo_PAC-removebg-preview.png" />
+    <Content Include="Content\Images\times-solid.svg" />
+    <Content Include="Content\Images\user-cog-solid.svg" />
     <Content Include="Content\LocalStyle.css" />
-    <Content Include="Content\LoginStyle.css" />
+    <Content Include="Content\Sound\ttsMP3.com_VoiceText_2020-12-15_15_22_0.mp3" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -200,6 +197,12 @@
       <DependentUpon>Models.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\dist\Chart.bundle.js" />
+    <Content Include="Scripts\dist\Chart.bundle.min.js" />
+    <Content Include="Scripts\dist\Chart.css" />
+    <Content Include="Scripts\dist\Chart.js" />
+    <Content Include="Scripts\dist\Chart.min.css" />
+    <Content Include="Scripts\dist\Chart.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
@@ -210,6 +213,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\pac.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -226,9 +230,16 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Local\Index.cshtml" />
     <Content Include="Views\Registro\Create.cshtml" />
-    <Content Include="Views\Local\Details.cshtml" />
-    <Content Include="Views\EditarLocal\Editar.cshtml" />
+    <Content Include="Views\Local\Edit.cshtml" />
+    <Content Include="Views\Home\Configuracion.cshtml" />
+    <Content Include="Views\Aforo\VistaSeguridadDosBotones.cshtml" />
+    <Content Include="Views\Aforo\VistaUsuarioDosBotones.cshtml" />
+    <Content Include="Views\Aforo\VistaUsuarioUnBotonSalida.cshtml" />
+    <Content Include="Views\Aforo\VistaUsuarioUnBotonEntrada.cshtml" />
+    <Content Include="Views\Aforo\VistaSeguridadUnBotonEntrada.cshtml" />
+    <Content Include="Views\Aforo\VistaSeguridadUnBotonSalida.cshtml" />
     <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Estadisticas\Estadisticas.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,44 +1,100 @@
-﻿<!DOCTYPE html>
-
-<html>
-<head>
-    
+﻿<head>
+    <script src="https://kit.fontawesome.com/4b68cdd7e4.js" crossorigin="anonymous"></script>
+    <script src="~/Scripts/pac.js"></script>
 </head>
+
 <body>
     <div class="container">
-
-        <div class="row" style="margin-top:20px">
-            <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
-                <form role="form">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-md-7 col-xs-offset-1 col-sm-offset-3 col-md-offset-3">
+                <form role="form" class="login" asp-controller="HomeController" asp-action="Login" method="post">
                     <fieldset>
-                        
-                        <h2>Please Sign In</h2>
-                        <hr class="colorgraph">
-                        <div class="form-group">
-                            <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address">
-                        </div>
-                        <div class="form-group">
-                            <input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password">
-                        </div>
-                        <span class="button-checkbox">
-                            <button type="button" class="btn" data-color="info">Remember Me</button>
-                            <input type="checkbox" name="remember_me" id="remember_me" checked="checked" class="hidden">
-                            <a href="" class="btn btn-link pull-right">Forgot Password?</a>
-                        </span>
-                        <hr class="colorgraph">
-                        <div class="row">
-                            <div class="col-xs-6 col-sm-6 col-md-6">
-                                <input type="submit" class="btn btn-lg btn-success btn-block" value="Sign In">
+                        @{
+                            if (!String.IsNullOrEmpty(ViewBag.Login))
+                            {
+                                <div class="alert alert-warning col-md-9  col-xs-10">
+                                    <p>@ViewBag.Login</p>
+                                </div>
+                            }
+
+                            if (!String.IsNullOrEmpty(ViewBag.UsuarioRep))
+                            {
+                                <div class="alert alert-warning col-md-9  col-xs-10">
+                                    <p>@ViewBag.UsuarioRep</p>
+                                </div>
+                            }
+
+                        }
+                        <div class="row justify-content-center">
+                            <div class="col-md-offset-2">
+                                <img src="~/Content/Images/Logo_PAC-removebg-preview.png" />
                             </div>
-                            <div class="col-xs-6 col-sm-6 col-md-6">
-                                <a href="" class="btn btn-lg btn-primary btn-block">Register</a>
+                            <div class="col-md-offset-3 col-xs-offset-2">
+                                <h4>People Access Control</h4>
+                            </div>
+                            
+                        </div>
+ 
+                        <br />
+                        <h2>Sign In</h2>
+                        <hr class="colorgraph">
+                        <div class="form-group row">
+                            <label for="user" class="col-sm-3 col-form-label-lg">User</label>
+                            <input type="text" name="user" id="user" class="form-control" placeholder="User">
+                        </div>
+                        <div class="form-group row">
+                            <label for="password" class="col-sm-3 col-form-label-lg">Password</label>
+                            <input type="password" name="password" id="password" class="form-control" placeholder="Password">
+                        </div>
+                        <div class="row">
+                            <br />
+                            <div class="col-md-4 col-xs-4">
+                                @Html.ActionLink("About Us", "Index", "Home", new { @class = "actionLink" })
+                            </div>
+                            <div class="col-md-offset-6 col-xs-offset-5">
+                                <a id="abrirpopupReg" class="actionLink" onclick="PopUpReg()">New here? Register</a>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col-md-offset-2">
+                                <input type="submit" class="btn btn-lg btn-success btn-block loginBtn" value="ENTER">
                             </div>
                         </div>
                     </fieldset>
                 </form>
             </div>
         </div>
+        <div class="overlayReg" id="overlayReg" >
+            <div class="popupReg" id="popupReg">
+                <a href="#" class="cerrarpopupReg" onclick="ClosePopUpReg()"><i class="fas fa-times"></i></a>
 
+                <h3>REGISTER</h3>
+                    @using (Html.BeginForm("Create", "Local", FormMethod.Post))
+                    {
+
+                        <input type="text" id="empN" name="empN" placeholder="Company:" required><br />
+
+                        <input type="text" id="cif" name="cif" placeholder="CIF:" required><br />
+
+                        <input type="text" id="user" name="user" placeholder="User:" required><br />
+
+                        <input type="password" id="passwordReg" name="passwordReg" placeholder="Password:" required><br />
+
+                        <input type="password" id="passwordRegRep" name="passwordRegRep" placeholder="Repeat password:" required><br />
+
+                        <span id="errorPassRep"></span>
+
+                        <input type="text" id="dir" name="dir" placeholder="Direction:" required><br />
+
+                        <input type="number" id="tel" name="tel" placeholder="Phone:" required><br />
+
+                        <input type="number" id="afM" name="afM" placeholder="Max capacity:" required><br />
+                        <br />
+                        <button class="btn btn-sm btn-success btn-block" type="submit">Send</button>
+                    }
+            </div>
+        </div>
     </div>
 </body>
-</html>
+

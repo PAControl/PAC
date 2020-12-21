@@ -1,0 +1,86 @@
+﻿@model ControlAforo.Models.Local
+
+@{
+    ViewBag.Title = "changeAforo";
+}
+
+<script src="~/Scripts/pac.js"></script>
+<script src="https://kit.fontawesome.com/4b68cdd7e4.js" crossorigin="anonymous"></script>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xs-offset-10">
+                <button class="Config" id="abrirpopup" onclick="PopUp()">
+                </button>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <h1 class="TextAforo">@ViewBag.emp</h1>
+
+            <h3>User Version</h3>
+            <div class="col-md-6"><h2>Now:<span class="TextAforo"> @ViewBag.aforo</span></h2></div>
+            <div class="col-md-6"><h2>Max:<span class="TextAforo">  @ViewBag.aforoM</span></h2></div>
+
+        </div>
+
+        @{
+            if (ViewBag.aforo == ViewBag.aforoM)
+            {
+                <br />
+                <div class="row">
+                    <div class="alert alert-warning col-md-offset-3 col-md-6 col-xs-10 col-xs-offset-1 AlertMax">
+                        <p>MAX CAPACITY REACHED</p>
+                    </div>
+                </div>
+                <audio id="player" autoplay>
+                    <source src="~/Content/Sound/ttsMP3.com_VoiceText_2020-12-15_15_22_0.mp3" type="audio/mp3">
+                </audio>
+            }
+        }
+
+        <div class=" row TwoButtons">
+
+            <div class="col-md-6 col-md-offset-2">
+
+                @using (Html.BeginForm("sumar", "Aforo", FormMethod.Post))
+                {
+
+                    <br /><br />
+                    <button type="submit" class="PACbutton" onclick="ChangeGreen()">
+                        <p class="ButtonsText">ENTER</p>
+                    </button>
+                }
+            </div>
+
+            <div class="col-md-6 col-md-offset-1">
+                @using (Html.BeginForm("restar", "Aforo", FormMethod.Post))
+                {
+
+                    <br /><br />
+                    <button type="submit" class="ExitButton" onclick="ChangeRed()">
+                        <p class="ButtonsText">EXIT</p>
+                    </button>
+
+                }
+            </div>
+        </div>
+
+        <div class="overlay" id="overlay">
+            <div class="popup" id="popup">
+                <a href="#" id="cerrarpopup" class="cerrarpopup" onclick="ClosePopUp()"><i class="fas fa-times"></i></a>
+                @using (Html.BeginForm("Identification", "Home", FormMethod.Post))
+                {
+                    <input type="password" name="password" placeholder="Password" />
+                    <button type="submit" class="btn btn-sm btn-success">ENTER</button>
+                }
+            </div>
+        </div>
+
+    </div>
+</body>
+
+

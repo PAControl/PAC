@@ -1,0 +1,56 @@
+﻿<div class="container ConfigMenu">
+    <h1>Configuration</h1>
+    <br />
+    <div class="form-group row">
+        <div class="col-md-12">
+            <h3>
+                Change Max Capacity <span id="ActCap">Actual  @ViewBag.Capacity</span>
+            </h3>
+            
+
+            @using (Html.BeginForm("ChangeCapacity", "Home", FormMethod.Post, new { @class = "form-inline" }))
+            {
+
+                <input class="form-control" id="capacity" type="number" name="capacity" required />
+                <button type="submit" class="btn btn-success">ENTER</button>
+            }
+        </div>
+    </div>
+    <br />
+
+    <div class="row">
+        <div class="col-md-4">
+            <h3>Security Views</h3>
+            <p>@Html.ActionLink("Two Buttons", "VistaSeguridadDosBotones", "Aforo")</p>
+            <p>@Html.ActionLink("Entry Button", "VistaSeguridadUnBotonEntrada", "Aforo")</p>
+            <p>@Html.ActionLink("Exit Button", "VistaSeguridadUnBotonSalida", "Aforo")</p>
+        </div>
+
+        <div class="col-md-4">
+            <h3>User Views</h3>
+            <p>@Html.ActionLink("Two Buttons", "VistaUsuarioDosBotones", "Aforo")</p>
+            <p>@Html.ActionLink("Entry Button", "VistaUsuarioUnBotonEntrada", "Aforo")</p>
+            <p>@Html.ActionLink("Exit Button", "VistaUsuarioUnBotonSalida", "Aforo")</p>
+        </div>
+
+        <div class="col-md-4">
+            <h3>Statistics</h3>
+            <p>@Html.ActionLink("Statistics", "Estadisticas", "Estadisticas")</p>
+        </div>
+    </div>
+    <br />
+
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Log Out</h3>
+            <p>@Html.ActionLink("Log Out", "CloseSession", "Home")</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+

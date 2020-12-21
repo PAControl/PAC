@@ -1,0 +1,109 @@
+﻿@{
+    ViewBag.Title = "Estadisticas";
+}
+
+<head>
+    <script src="~/Scripts/dist/Chart.js"></script>
+    <script src="~/Scripts/pac.js"></script>
+</head>
+
+<body>
+    <div class="container Statistics">
+
+        <div class="row">
+            <div class="col-xs-offset-10">
+                <button class="Config" id="abrirpopup" onclick="PopUp()"></button>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-md-12">
+                <h1>Statistics</h1>
+
+                <h2>Chart for @ViewBag.estadisticasFecha</h2>
+                @using (Html.BeginForm("CambiarFecha", "Estadisticas", FormMethod.Post, new { @class = "form-inline" }))
+                {
+                    <input class="form-control" type="date" name="fechaUser" required />
+                    <button type="submit" class="btn btn-success">Filter</button>
+                }
+            </div>
+        </div>
+    </div>
+    <br />
+    <canvas id="miGrafica" class="ChartPAC"></canvas>
+
+    <div class="overlay" id="overlay">
+        <div class="popup" id="popup">
+            <a href="#" id="cerrarpopup" class="cerrarpopup" onclick="ClosePopUp()"><i class="fas fa-times"></i></a>
+            @using (Html.BeginForm("Identification", "Home", FormMethod.Post))
+            {
+                <input type="password" name="password" placeholder="Password" />
+                <button type="submit" class="btn btn-sm btn-success">ENTER</button>
+            }
+        </div>
+    </div>
+
+</body>
+
+
+<script>
+
+    let micanvas = document.getElementById("miGrafica").getContext("2d");
+
+        var chart ;
+
+        function myFunction(x) {
+            if (x.matches) { // If media query matches
+
+                chart= new Chart(micanvas, {
+                    type: "horizontalBar",
+                    data: {
+                        labels: ["6", "7", "8", "9", "10", "11", "12", "13",
+                            "14", "15", "16", "17", "18", "19", "20",
+                            "21", "22"],
+                        datasets: [
+                            {
+                                label: "Persons x hours",
+                                backgroundColor: "rgb(124,252,0)",
+                                data: [@ViewBag.arrayDeCounts[0], @ViewBag.arrayDeCounts[1], @ViewBag.arrayDeCounts[2],
+                    @ViewBag.arrayDeCounts[3], @ViewBag.arrayDeCounts[4], @ViewBag.arrayDeCounts[5],
+                    @ViewBag.arrayDeCounts[6], @ViewBag.arrayDeCounts[7], @ViewBag.arrayDeCounts[8],
+                    @ViewBag.arrayDeCounts[9], @ViewBag.arrayDeCounts[10], @ViewBag.arrayDeCounts[11],
+                    @ViewBag.arrayDeCounts[12], @ViewBag.arrayDeCounts[13], @ViewBag.arrayDeCounts[14],
+                    @ViewBag.arrayDeCounts[15], @ViewBag.arrayDeCounts[16]]
+
+                            }
+                        ]
+                    }
+                })
+
+
+            } else {
+                 chart = new Chart(micanvas, {
+                    type: "bar",
+                    data: {
+                        labels: ["6", "7", "8", "9", "10", "11", "12", "13",
+                            "14", "15", "16", "17", "18", "19", "20",
+                            "21", "22"],
+                        datasets: [
+                            {
+                                label: "People x hours",
+                                backgroundColor: "rgb(124,252,0)",
+                                data: [@ViewBag.arrayDeCounts[0], @ViewBag.arrayDeCounts[1], @ViewBag.arrayDeCounts[2],
+                    @ViewBag.arrayDeCounts[3], @ViewBag.arrayDeCounts[4], @ViewBag.arrayDeCounts[5],
+                    @ViewBag.arrayDeCounts[6], @ViewBag.arrayDeCounts[7], @ViewBag.arrayDeCounts[8],
+                    @ViewBag.arrayDeCounts[9], @ViewBag.arrayDeCounts[10], @ViewBag.arrayDeCounts[11],
+                    @ViewBag.arrayDeCounts[12], @ViewBag.arrayDeCounts[13], @ViewBag.arrayDeCounts[14],
+                    @ViewBag.arrayDeCounts[15], @ViewBag.arrayDeCounts[16]]
+
+                            }
+                        ]
+                    }
+                })
+            }
+        }
+        var x = window.matchMedia("(max-width: 900px)")
+        myFunction(x) // Call listener function at run time
+        x.addListener(myFunction) // Attach listener function on state changes
+
+</script>

@@ -4,69 +4,108 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
+<script src="sweetalert2.all.min.js"></script>
 
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.usuario)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.contraseña)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.direccion)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.telefono)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.aforoMax)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.id_empresa)
-        </th>
-        <th></th>
-    </tr>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.usuario)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.contraseña)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.direccion)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.telefono)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.aforoMax)
-        </td>
-        <td>
-            <a href="#openModal">@Html.DisplayFor(modelItem => item.id_empresa)</a>
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.id })
-        </td>
-    </tr>
-}
-</table>
-<div id="openModal" class="modalDialog">
-    <div>
-        <a href="#close" title="Close" class="close">X</a>
-        <h2>INFORMACIÓN DE LA EMPRESA</h2>
-        <p>ID:</p>
-        <p>Nombre:</p>
-        <p>CIF:</p>
+<script type="text/javascript">
+
+    function popup(id) {
+
+        $.get("/Local/Company", { id: id }, function (data) {
+
+            Swal.fire({
+                title: 'ID: ' + data.id,
+                text: 'Empresa: ' + data.name + ', CIF: ' + data.cif,
+            })
+
+        });
+    };
+
+</script>
+
+<div class="container Admin">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Admin</h1>
+        </div>
     </div>
+    <br />
+    <div class="row">
+        <div class="col-md-10">
+            <p>
+                @Html.ActionLink("New local", "Create")
+            </p>
+        </div>
+
+        <div class="col-md-2">
+            <p>
+                @Html.ActionLink("Log out", "CloseSession")
+            </p>
+        </div>
+    </div>
+
+    <br />
+
+    @using (Html.BeginForm("Filter", "Local", FormMethod.Post, new { @class = "form-inline" }))
+    {
+        <input class="form-control" id="filter" type="text" name="filter" placeholder="Introduce una dirección" />
+        <button type="submit" class="btn btn-success">Filter</button>
+    }
+    <br />
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.usuario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.contraseña)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.direccion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.telefono)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.aforoMax)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.id_empresa)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.usuario)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.contraseña)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.direccion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.telefono)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.aforoMax)
+                </td>
+                <td>
+                    <button onclick="popup('@item.id_empresa')">@Html.DisplayFor(modelItem => item.id_empresa)</button>
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.id })
+                </td>
+            </tr>
+        }
+    </table>
 </div>
+

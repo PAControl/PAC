@@ -2,13 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 
-body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-    background-color: whitesmoke;
-    font-family: 'Raleway', sans-serif;
-}
-
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
@@ -29,81 +22,471 @@ textarea {
     max-width: 280px;
 }
 
-h1 {
-    text-align: center;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-.pactitle {
-    font-size: 70px;
-}
-
-.textright {
-    text-align: right;
-}
-
-.containermenu {
-    text-align: right;
-    width: 100%
-}
-
-/*Ventana emergente*/
-
-.modalDialog {
-    position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0,0,0,0.8);
-    z-index: 99999;
-    opacity: 0;
-    -webkit-transition: opacity 400ms ease-in;
-    -moz-transition: opacity 400ms ease-in;
-    transition: opacity 400ms ease-in;
-    pointer-events: none;
-}
-
-    .modalDialog:target {
-        opacity: 1;
-        pointer-events: auto;
+    body {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        background-color: whitesmoke;
+        font-family: 'Raleway', sans-serif;
     }
 
-    .modalDialog > div {
-        width: 400px;
-        position: relative;
-        margin: 10% auto;
-        padding: 5px 20px 13px 20px;
+    /*Style for config button*/
+
+    .Config {
+        background: url(/Content/Images/user-cog-solid.svg);
+        background-repeat: no-repeat;
+        height: 35px;
+        width: 35px;
+        border: hidden;
+        background-position: center;
+    }
+
+    a.actionLink {
+        color: blue;
+    }
+
+    a.actionLink:hover {
+        color: deepskyblue;
+    }
+
+    .TextAforo {
+        font-weight: bolder;
+    } 
+
+
+    /*Quitar felchas de incrementar y disminuir el valor de un inpuy de tipo numerico*/
+
+    /*input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }*/
+    
+    /*
+    input[type=number] {
+        -moz-appearance: textfield;
+    }*/
+
+    /*Index About Us*/
+
+    h1 {
+        text-align: center;
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    .pactitle {
+        font-size: 70px;
+    }
+
+    .textright {
+        text-align: right;
+    }
+
+    .containermenu {
+        text-align: right;
+        width: 100%
+    }
+
+
+    /*BUTTONS*/
+
+    @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+    .ButtonsText {
+        text-decoration: none;
+        color: white;
+        font-size:xx-large;
+        font-weight:bolder;
+    }
+
+    .TwoButtons {
+        height: 350px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .PACbutton {
+        display: flex;
+        font-family: OpenSans;
+        background-color: green;
+        border: 1px solid green;
+        box-shadow: 0px 6px 0px black;
+        border-radius: 180px;
+        margin-left: 20px;
+        width: 180px;
+        justify-content: center;
+        align-items: center;
+        height: 180px;
+        /*Prevents text selection*/
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        font-family: 'Titillium Web', sans-serif;
+        text-decoration: none;
+    }
+
+    .ExitButton {
+        display: flex;
+        font-family: OpenSans;
+        color: black;
+        background-color: #cc0000;
+        border: 1px solid #cc0000;
+        box-shadow: 0px 6px 0px black;
+        border-radius: 180px;
+        margin-left: 20px;
+        width: 180px;
+        justify-content: center;
+        align-items: center;
+        height: 180px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        font-family: 'Titillium Web', sans-serif;
+        text-decoration: none;
+    }
+
+    .NumInput {
+        width: 50px;
+        height: 30px;
+        display: block;
+        margin-left: 80px;
+        border-color: lightgray;
+        border-radius: 5px;
+    }
+
+    @media (max-width: 450px) {
+        .PACbutton {
+            display: flex;
+            font-family: OpenSans;
+            background-color: green;
+            border: 1px solid green;
+            box-shadow: 0px 6px 0px black;
+            border-radius: 180px;
+            margin-left: 20px;
+            width: 130px;
+            justify-content: center;
+            align-items: center;
+            height: 130px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            font-family: 'Titillium Web', sans-serif;
+            text-decoration: none;
+        }
+
+        .ExitButton {
+            display: flex;
+            font-family: OpenSans;
+            color: black;
+            background-color: #cc0000;
+            border: 1px solid #cc0000;
+            box-shadow: 0px 6px 0px black;
+            border-radius: 180px;
+            margin-left: 18px;
+            width: 130px;
+            justify-content: center;
+            align-items: center;
+            height: 130px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            font-family: 'Titillium Web', sans-serif;
+            text-decoration: none;
+        }
+
+        .TwoButtons{
+            height: 250px;
+        }
+
+        .NumInput{
+            margin-left: 60px;
+        }
+    }
+
+        .PACbutton:hover {
+            filter: saturate(180%);
+        }
+
+        .PACbutton:active {
+            box-shadow: 0 0px 0 black;
+            top: 3px;
+            flex-wrap: wrap;
+        }
+
+        .ExitButton:active {
+            box-shadow: 0 0px 0 black;
+            top: 3px;
+        }
+
+        .ExitButton:hover {
+            filter: saturate(180%);
+        }
+
+        textarea, select, input, button {
+            outline: none;
+        }
+
+        :focus {
+            outline-color: transparent;
+            outline-style: none;
+        }
+
+    /*style for login page*/
+
+    .login {
+        margin-bottom: 5%;
+    }
+
+    .login label {
+        margin-top: 1%;
+    }
+
+    .login h2 {
+        font-weight: bolder;
+    }
+
+    .loginBtn {
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: 'Raleway';
+    }
+
+    /*Style for Popup Register*/
+
+    .overlayReg {
+        background: rgb(0,0,0,.3);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        visibility: hidden;
+    }
+
+    .overlayReg.active {
+        visibility: visible;
+    }
+
+    .popupReg {
+        background: white;
         border-radius: 10px;
-        background: #fff;
-        background: -moz-linear-gradient(#fff, #999);
-        background: -webkit-linear-gradient(#fff, #999);
-        background: -o-linear-gradient(#fff, #999);
-        -webkit-transition: opacity 400ms ease-in;
-        -moz-transition: opacity 400ms ease-in;
-        transition: opacity 400ms ease-in;
+        padding: 20px;
+        text-align: center;
+        transition: .5s ease all;
+        opacity: 0;
+        font-family: 'Raleway', sans-serif;
+        background-color: whitesmoke;
     }
 
-.close {
-    background: #606061;
-    color: #FFFFFF;
-    line-height: 25px;
-    position: absolute;
-    right: -12px;
-    text-align: center;
-    top: -10px;
-    width: 24px;
-    text-decoration: none;
-    font-weight: bold;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    border-radius: 12px;
-    -moz-box-shadow: 1px 1px 3px #000;
-    -webkit-box-shadow: 1px 1px 3px #000;
-    box-shadow: 1px 1px 3px #000;
-}
+    .popupReg.active {
+        opacity: 2;
+        transform: scale(1)
+    }
 
-    .close:hover {
-        background: #00d9ff;
+    .popupReg .cerrarpopupReg {
+        font-size: 16px;
+        line-height: 16px;
+        color: black;
+        margin-left: 300px;
+        transition: .3s ease all;
+    }
+
+    .popupReg .cerrarpopupReg :hover {
+        color: red;
+    }
+
+
+    .popupReg input {
+        margin-bottom: 15px;
+        border: none;
+        background: none;
+        border-bottom: solid dimgray;
+        color: dimgray;
+    }
+
+    .popupReg label {
+        color: white;
+    }
+
+    .popupReg button {
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: 'Raleway';
+    }
+
+    .popupReg h3 {
+        font-size: 40px;
+        font-weight: bolder;
+        font-family: 'Raleway';
+        margin-bottom: 40px;
+    }
+
+    /*Style Popup Pass*/
+
+    .overlay {
+        background: rgb(0,0,0,.3);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        visibility: hidden;
+    }
+
+    .overlay.active {
+        visibility: visible;
+    }
+
+    .popup {
+        background-color:whitesmoke;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        transition: .5s ease all;
+        opacity: 0;
+    }
+
+    .popup.active {
+        opacity: 2;
+        transform: scale(1)
+    }
+
+    .popup .cerrarpopup {
+        font-size: 16px;
+        line-height: 16px;
+        color: black;
+        margin-left: 300px;
+        transition: .3s ease all;
+    }
+
+    .popup .cerrarpopup :hover {
+        color: red;
+    }
+
+    .popup input {
+        border: none;
+        background: none;
+        border-bottom: solid dimgray;
+        color: dimgray;
+    }
+
+    .popup button {
+        margin-left: 15px;
+        font-size: 15px;
+        font-weight: bolder;
+        font-family: 'Raleway';
+    }
+
+    /*Style for Config Menu*/
+
+    .ConfigMenu h1 {
+        font-size: 40px;
+        font-weight: bolder;
+        font-family: 'Raleway';
+        text-align: left;
+    }
+
+    .ConfigMenu h3 {
+        font-weight: bold;
+        font-family: 'Raleway';
+        color:dimgrey;
+    }
+
+    .ConfigMenu p {
+        font-size: 20px;
+    }
+
+    .ConfigMenu button {
+        font-weight: bolder;
+        font-family: 'Raleway';
+    }
+
+    @media (max-width: 500px) {
+        .ConfigMenu button{
+            margin-top: 20px;
+        }
+    }
+
+    #ActCap {
+        color: green;
+    }
+
+    /*Style for Stadistics*/
+
+    .Statistics h1  {
+        font-weight: bolder;
+        font-family: 'Raleway';
+        text-align: center;
+    }
+
+    .Statistics h2 {
+        font-family: 'Raleway';
+        text-align: center;
+        color: dimgrey;
+    }
+
+    .Statistics button {
+        font-weight: bolder;
+        font-family: 'Raleway';
+    }
+
+    .ChartPAC {
+        height: 50px;
+        width: 100px;
+    }
+
+    @media (max-width: 500px) {
+        .ChartPAC {
+            height: 500px;
+            width: 100px;
+        }
+
+        .Statistics button {
+            margin-top: 20px;
+        }
+    }
+
+    /*Style Admin*/
+
+    .Admin h1 {
+        font-weight: bolder;
+        font-family: 'Raleway';
+        text-align: left;
+    }
+
+    .Admin p {
+        font-size: 20px;
+    }
+
+    .Admin button {
+        font-weight: bolder;
+        font-family: 'Raleway';
+    }
+
+    @media (max-width: 500px) {
+        .Admin button {
+            margin-top: 20px;
+        }
+    }
+
+    /*Style for Alert*/
+
+    .AlertMax {
+        background-color: #cc0000;
+       /* border-color: #F0A08B;*/
+        color: white;
+        text-align: center;
+        font-weight: bolder;
+        font-size: x-large;
     }
