@@ -41,19 +41,18 @@
             }
         }
 
-        <div id="container">
-            @using (Html.BeginForm("sumarUnBoton", "Aforo", FormMethod.Post))
-            {
-                <div class="row text-center">
-                    <div class="col-xs-offset-3 col-sm-offset-4 col-md-offset-5">
-                        <br /><br />
-                        <button type="submit" class="PACbutton" onclick="ChangeGreen()">
-                            <p class="ButtonsText">ENTER</p>
-                        </button>
-                    </div>
+        <br /><br />
+
+        @using (Html.BeginForm("sumarUnBoton", "Aforo", FormMethod.Post))
+        {
+            <div class="col-xl-12">
+                <div class="row abs-center">
+                    <button type="submit" class="PACbutton" onclick="ChangeGreen()">
+                        <p class="ButtonsText">ENTER</p>
+                    </button>
                 </div>
-            }
-        </div>
+            </div>
+        }
 
         <div class="overlay" id="overlay">
             <div class="popup" id="popup">

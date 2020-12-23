@@ -44,42 +44,43 @@
 
         <div class=" row TwoButtons">
 
-            <div class="col-md-6 col-md-offset-2">
+        
 
-                @using (Html.BeginForm("sumar", "Aforo", FormMethod.Post))
-                {
+            @using (Html.BeginForm("sumar", "Aforo", FormMethod.Post))
+            {
+                <div class="col-xl-12">
+                    <div class="row abs-center">
+                        <button type="submit" class="PACbutton" onclick="ChangeGreen()">
+                            <p class="ButtonsText">ENTER</p>
+                        </button>
+                    </div>
+                </div>
+            }
 
-                    <br /><br />
-                    <button type="submit" class="PACbutton" onclick="ChangeGreen()">
-                        <p class="ButtonsText">ENTER</p>
-                    </button>
-                }
+
+            @using (Html.BeginForm("restar", "Aforo", FormMethod.Post))
+            {
+                <div class="col-xl-12">
+                    <div class="row abs-center">
+                        <button type="submit" class="ExitButton" onclick="ChangeRed()">
+                            <p class="ButtonsText">EXIT</p>
+                        </button>
+                    </div>
+                </div>
+            }
+
+            <div class="overlay" id="overlay">
+                <div class="popup" id="popup">
+                    <a href="#" id="cerrarpopup" class="cerrarpopup" onclick="ClosePopUp()"><i class="fas fa-times"></i></a>
+                    @using (Html.BeginForm("Identification", "Home", FormMethod.Post))
+                    {
+                        <input type="password" name="password" placeholder="Password" />
+                        <button type="submit" class="btn btn-sm btn-success">ENTER</button>
+                    }
+                </div>
             </div>
 
-            <div class="col-md-6 col-md-offset-1">
-                @using (Html.BeginForm("restar", "Aforo", FormMethod.Post))
-                {
-
-                    <br /><br />
-                    <button type="submit" class="ExitButton" onclick="ChangeRed()">
-                        <p class="ButtonsText">EXIT</p>
-                    </button>
-
-                }
-            </div>
         </div>
-
-        <div class="overlay" id="overlay">
-            <div class="popup" id="popup">
-                <a href="#" id="cerrarpopup" class="cerrarpopup" onclick="ClosePopUp()"><i class="fas fa-times"></i></a>
-                @using (Html.BeginForm("Identification", "Home", FormMethod.Post))
-                {
-                    <input type="password" name="password" placeholder="Password" />
-                    <button type="submit" class="btn btn-sm btn-success">ENTER</button>
-                }
-            </div>
-        </div>
-
     </div>
 </body>
 

@@ -168,8 +168,12 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Images\ajustes.png" />
+    <Content Include="Content\Images\auditorium-2603163_1280.jpg" />
+    <Content Include="Content\Images\clothing-store-984396_1280.jpg" />
+    <Content Include="Content\Images\library-922998_1280.jpg" />
     <Content Include="Content\Images\Logo_PAC-removebg-preview.png" />
     <Content Include="Content\Images\times-solid.svg" />
+    <Content Include="Content\Images\urban-2004494_1280.jpg" />
     <Content Include="Content\Images\user-cog-solid.svg" />
     <Content Include="Content\LocalStyle.css" />
     <Content Include="Content\Sound\ttsMP3.com_VoiceText_2020-12-15_15_22_0.mp3" />

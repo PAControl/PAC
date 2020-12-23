@@ -4,18 +4,15 @@
     ViewBag.Title = "changeAforo";
 }
 
-@*<script>
-        //Cuando la página esté cargada completamente
+<script>
+        //Reloads the page every 10seg to upgrade the viewbags
         if (document.readyState) {
-            setTimeout(refrescar, 5000);
+            setTimeout(refresh, 10000);
         }
-        function refrescar() {
-            document.getElementById("refresh").reload(true);
-            //Actualiza la página
-            //location.reload();
-
+        function refresh() {
+            location.reload();
         }
-</script>*@
+</script>
 
 <script src="~/Scripts/pac.js"></script>
 <script src="https://kit.fontawesome.com/4b68cdd7e4.js" crossorigin="anonymous"></script>
@@ -39,20 +36,19 @@
 
         </div>
 
-        <div id="container">
+        <br /><br />
 
-            @using (Html.BeginForm("restarUnBoton", "Aforo", FormMethod.Post))
-            {
-                <div class="row text-center">
-                    <div class="col-xs-offset-3 col-sm-offset-4 col-md-offset-5">
-                        <br /><br />
-                        <button type="submit" class="ExitButton" onclick="ChangeRed()">
-                            <p class="ButtonsText">EXIT</p>
-                        </button>
-                    </div>
+        @using (Html.BeginForm("restarUnBoton", "Aforo", FormMethod.Post))
+        {
+            <div class="col-xl-12">
+                <div class="row abs-center">
+                    <button type="submit" class="ExitButton" onclick="ChangeRed()">
+                        <p class="ButtonsText">EXIT</p>
+                    </button>
                 </div>
-            }
-        </div>
+            </div>
+        }
+
 
         <div class="overlay" id="overlay">
             <div class="popup" id="popup">

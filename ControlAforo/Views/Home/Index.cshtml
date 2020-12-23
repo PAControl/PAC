@@ -2,35 +2,121 @@
     ViewBag.Title = "Home Page";
 }
 
-<div>
-    <h1 class="pactitle">PAC</h1>
-    <p class="lead">PAC is a start-up dedicated to accomplish a modern and affordable way to keep people safe through a web app that controls the access of people in any space or establishment.</p>
+<script src="~/Scripts/pac.js"></script>
+
+<div class="container ContactUs">
+    <div class="row">
+        <div class="abs-center">
+            <img src="~/Content/Images/Logo_PAC-removebg-preview.png" />
+        </div>
+
+        <br />
+
+        <div class="col-md-12">
+            <p class="lead text-center">
+                PAC is a start-up dedicated to accomplish a modern and affordable way to keep people safe
+                through a web app that controls the access of people in any space or establishment.
+            </p>
+        </div>
+    </div>
+
+    <br />
+
+    <div class="row">
+        <h1>Use Cases</h1>
+        <div class="col-md-4">
+            <img src="~/Content/Images/library-922998_1280.jpg" class="img-responsive" />
+            <h3>Library</h3>
+            <p>
+                The user interacts directly with the interface through a tablet or a mobile device, they can push the entry or exit button
+                and if the establishment reach their max capacity an alert shows up
+            </p>
+
+        </div>
+        <div class="col-md-4">
+            <img src="~/Content/Images/clothing-store-984396_1280.jpg" class="img-responsive" />
+            <h3>Store</h3>
+            <p>
+                Someone controls the App and checks how many people enters and exit the establishment, most common case being the security person and
+                they also have the option to put the number of people in the interface
+            </p>
+
+        </div>
+        <div class="col-md-4">
+            <img src="~/Content/Images/auditorium-2603163_1280.jpg" class="img-responsive" />
+            <h3>Auditorium</h3>
+            <p>
+                It can be used on multiple doors, some acting like an entrance and some acting like an exit, in this case the interface act in real time
+                updating the info that shows us how many people are in the establishment
+            </p>
+
+        </div>
+    </div>
+
+    <br />
+
+    <div class="row servivios" id="servicios">
+        <div class="row">
+
+            <h1>Contact Us</h1>
+
+            <div class="col-md-3 text-center" onclick="ivan()">
+                <div class="box">
+                    <div class="box-content">
+                        <h3 class="tag-title">Iván Moreno</h3>
+                        <hr />
+                        <p>App Developer / Back End</p>
+                        <p>Mail: ivan.moreno073@gmail.com</p>
+                        <p>Phone: +34 660824539</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center" onclick="manu()">
+                <div class="box">
+                    <div class="box-content">
+                        <h3 class="tag-title">Manuel López</h3>
+                        <hr />
+                        <p>Web Developer / Full Stack</p>
+                        <p>Mail: manueellg97@gmail.com</p>
+                        <p>Phone: +34 652325288</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center" onclick="sebas()">
+                <div class="box">
+                    <div class="box-content">
+                        <h3 class="tag-title">Sebas Miranda</h3>
+                        <hr />
+                        <p>Developer / Full Stack</p>
+                        <p>Mail: smiranda9910@gmail.com</p>
+                        <p>Phone: +34 605992413</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center" onclick="dou()">
+                <div class="box">
+                    <div class="box-content">
+                        <h3 class="tag-title">Douglas Malavé</h3>
+                        <hr />
+                        <p>Web Developer / Full Stack</p>
+                        <p>Mail: doumalave@gmail.com</p>
+                        <p>Phone: +34 657753797</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <strong>
+                @Html.ActionLink("Go Back", "Login")
+            </strong>
+        </div>
+    </div>
 </div>
 
-<div class="row">
-    <h1>USE CASES</h1>
-    <div class="col-md-4">
-        <h3>Library (app used by user)</h3>
-        <p>
-            El control de acceso de una bibilioteca tendria nuestra app en una tablet y los usuarios al entrar tendrian que darle y tambien al salir,
-            si el lugar esta lleno le saldra una alerta en la app diciendo que espere a que este vacio.
-        </p>
 
-    </div>
-    <div class="col-md-4">
-        <h3>Store (app used for security)</h3>
-        <p>
-            Un seguridad controlara la entrada y salida de la gente desde nuestra app, y podra ver el numero de gente que hay dentro en de la tienda
-            y hacerles entrar en grupos solo introduciendo el numero y entrandolo en la app
-        </p>
-
-    </div>
-    <div class="col-md-4">
-        <h3>Stadium (app used for security)</h3>
-        <p>
-            El estadio tendra mas muchas entradas diferentes con gente de seguridad en sus entradas controlando que se cumpla un aforo del estadio
-            desde sus tablets saldra una alerta si esta lleno, con nuestro control se podria  llegar a saber que entrada es la que se ha repetido.
-        </p>
-
-    </div>
-</div>

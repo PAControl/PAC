@@ -59,12 +59,32 @@ function ClosePopUpReg() {
 
 }
 
-$(document).ready(function () {
-    $.ajax({
-        type: "POST",
-        url: "~/AforoController/VistaUsuarioUnBotonSalida", // the URL of the controller action method
-        success: function () {
-            setTimeout(function () { document.getElementById("refresh").reload(true); }, 5000);
-        }
-    });
-})
+//Redirects to Linkedin Pages
+
+function dou() {
+    window.open('https://www.linkedin.com/in/doumalave/', '_blank');
+}
+
+function ivan() {
+    window.open('https://www.linkedin.com/in/iv%C3%A1n-moreno-mora-2336381a9/', '_blank');
+}
+
+function manu() {
+    window.open('https://www.linkedin.com/in/manuell%C3%B3pezgonz%C3%A1lez/', '_blank');
+}
+
+function sebas() {
+    window.open('https://www.linkedin.com/in/sebasti%C3%A1n-miranda-rivera-049b90184/', '_blank');
+}
+
+
+//$(document).ready(function () {
+//    $.ajax({
+//        type: "POST",
+//        url: "~/AforoController/VistaUsuarioUnBotonSalida", // the URL of the controller action method
+//        success: function () {
+//            setTimeout(function () { document.getElementById("refresh").reload(true); }, 5000);
+//        }
+//    });
+//})
+
